@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.fohsh {
+    padding: 20px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 215, 248);
+    width: 100%;
+    min-height: 100vh;
+}
