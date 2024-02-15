@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    overflow-x: ;
     font-family: iranyekan;
 }
 @font-face {
@@ -35,7 +34,6 @@
     color: #ffffff;
     font-size: 13px;
     flex-direction: row-reverse;
-    width: 500px;
     height: 50px;
     margin-right: -30px;
 }
@@ -152,17 +150,56 @@
 }
 
 
-@media (max-width: 240px) {
+@media (max-width: 300px) {
     body {
         display: none;
     }
 }
-@media (min-width: 240px) {
+@media (max-width: 580px) {
+    
     .menu {
         display: none;
     }
     .khazebozorg {
         width: 80%;
+        left: 60px;
+    }
+    .khazebozorg img {
+        width: 30px;
+    }
+    .header {
+        height: 70px;
+    }
+    #logo {
+        width: 90px;
+        margin-top: 5px;
+    }
+    .logsign {
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+    }
+}
+@media (max-width: 868px) {
+    .menu {
+        
+    }
+    .safheye-asli {
+        width: 100px;
+    }
+    .khadamat {
+        width: 80px;
+        
+    }
+    .darbare {
+        width: 80px;
+        
+    }
+    .tamas {
+        width: 80px;
+    }
+    .khazebozorg {
+        width: 90%;
         left: 60px;
     }
     .khazebozorg img {
