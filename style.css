@@ -19,7 +19,7 @@
 }
 .first {
     background-color: #252525;
-    min-height: 100vh;
+    height: 100vh;
 }
 .headcontainer {
     width: 100%;
