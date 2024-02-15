@@ -2,10 +2,32 @@
     padding: 0;
     margin: 0;
     font-family: iranyekan;
+    overflow: hidden;
 }
 @font-face {
     font-family: iranyekan;
     src: url(fonts/IRANYekanWebExtraBold.woff);
+}
+.title {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    min-height: 75vh;
+}
+.sefid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-right: 50px;
+    color: #ffffff;
+    font-size: 40px;
+}
+.gl {
+    color: #FF087E;
+    font-size: 130px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .header {
     background-color: #252525;
@@ -73,6 +95,10 @@
     width: 77%;
     height: 100vh;
     
+}
+.khaze {
+    position: absolute;
+    width: 100%;
 }
 
 #kh1 {
@@ -216,6 +242,19 @@
         width: 100px;
         height: 40px;
         font-size: 10px;
+    }
+    .title {
+        min-height: 80vh;
+        
+    }
+    .sefid {
+        font-size: 30px;
+        margin-right: 15px;
+    }
+    .gl {
+        font-size: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 

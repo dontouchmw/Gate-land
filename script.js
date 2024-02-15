@@ -1,3 +1,3 @@
-location.reload(true);
+
 
 
