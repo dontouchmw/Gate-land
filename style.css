@@ -90,7 +90,7 @@
 }
 #kh3 {
     position: absolute;
-    left: 55px;
+    left: 30px;
     animation: rot 5s infinite alternate ;
     animation-delay: 1.5s;
 }
@@ -117,7 +117,7 @@
 }
 #kh7 {
     position: absolute;
-    right: 50px;
+    right: 40px;
     top: 100px;
     z-index: 11;
     animation: ro 5s infinite alternate;
