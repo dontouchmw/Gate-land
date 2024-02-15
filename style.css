@@ -150,4 +150,34 @@
     }
 }
 
+@media (min-width: 240px) {
+    .menu {
+        display: none;
+    }
+    .khazebozorg {
+        width: 80%;
+        left: 60px;
+    }
+    .khazebozorg img {
+        width: 30px;
+    }
+    .header {
+        height: 70px;
+    }
+    #logo {
+        width: 90px;
+        margin-top: 5px;
+    }
+    .logsign {
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+    }
+}
+@media (max-width: 240px) {
+    body {
+        display: none;
+    }
+}
+
 
