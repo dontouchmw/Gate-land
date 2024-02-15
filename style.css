@@ -150,6 +150,12 @@
     }
 }
 
+
+@media (max-width: 240px) {
+    body {
+        display: none;
+    }
+}
 @media (min-width: 240px) {
     .menu {
         display: none;
@@ -172,11 +178,6 @@
         width: 100px;
         height: 40px;
         font-size: 10px;
-    }
-}
-@media (max-width: 240px) {
-    body {
-        display: none;
     }
 }
 
