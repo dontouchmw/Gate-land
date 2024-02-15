@@ -16,7 +16,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 0;
 }
 .first {
     background-color: #252525;
@@ -73,46 +72,82 @@
     position: relative;
     top: -100px;
     left: 160px;
-    z-index: 1;
     width: 77%;
     height: 100vh;
+    
 }
+
 #kh1 {
     position: absolute;
     left: 20px;
+    animation:  rot 5s infinite alternate ;
 }
 #kh2 {
     position: absolute;
     left: 15px;
+    animation:  rot 5s infinite alternate ;
+    animation-delay: 2s;
 }
 #kh3 {
     position: absolute;
     left: 55px;
+    animation: rot 5s infinite alternate ;
+    animation-delay: 1.5s;
 }
 #kh4 {
     position: relative;
+    animation:  rot 5s infinite alternate  ;
+    animation-delay: 0.5s;
 }
 #kh5 {
     position: absolute;
     right: 15px;
     top: 100px;
     z-index: 10;
+    animation: ro 5s infinite alternate;
+    animation-delay: 1s;
 }
 #kh6 {
     position: absolute;
     right: 0px;
     top: 100px;
     z-index: 9;
+    animation: ro 5s infinite alternate;
+    animation-delay: 0.5s;
 }
 #kh7 {
     position: absolute;
     right: 50px;
     top: 100px;
     z-index: 11;
+    animation: ro 5s infinite alternate;
+    animation-delay: 1.5s;
 }
 #kh8 {
     position: absolute;
     right: 30px;
     top: 100px;
     z-index: 8;
+    animation: ro 5s infinite alternate;
+    animation-delay: 2s;
 }
+
+@keyframes rot {
+    0% {
+        transform: translateY(0px) translateX(0px);
+        
+    }
+    100% {
+        transform:translateY(-30px) translateX(20px);
+    }
+}
+@keyframes ro {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-20px);
+    }
+}
+
+
