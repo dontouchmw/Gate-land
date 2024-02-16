@@ -90,15 +90,14 @@
 }
 .khazebozorg {
     position: relative;
-    top: -100px;
     left: 160px;
     width: 77%;
     height: 100vh;
-    
 }
 .khaze {
     position: absolute;
     width: 100%;
+    top: 0;
 }
 
 #kh1 {
