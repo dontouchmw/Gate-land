@@ -217,6 +217,18 @@
         font-size: 80px;
         margin: auto;
     }
+    #kh5 {
+        top: 70px;
+    }
+    #kh6 {
+        top: 70px;
+    }
+    #kh7 {
+        top: 70px;
+    }
+    #kh8 {
+        top: 70px;
+    }
 }
 @media screen and (min-width: 580px) and (max-width: 800px) {
     .menu {
@@ -236,12 +248,16 @@
     .tamas {
         width: 80px;
     }
+    .khaze {
+        
+    }
     .khazebozorg {
         width: 90%;
         left: 60px;
+        
     }
     .khazebozorg img {
-        width: 30px;
+        width: 40px;
     }
     .header {
         height: 70px;
@@ -270,6 +286,19 @@
         margin-left: 10px;
         margin-right: 10px;
     }
+    #kh5 {
+        top: 70px;
+    }
+    #kh6 {
+        top: 70px;
+    }
+    #kh7 {
+        top: 70px;
+    }
+    #kh8 {
+        top: 70px;
+    }
+
 }
 
 
