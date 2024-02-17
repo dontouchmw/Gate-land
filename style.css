@@ -2,11 +2,13 @@
     padding: 0;
     margin: 0;
     font-family: iranyekan;
-    overflow: hidden;
 }
 @font-face {
     font-family: iranyekan;
     src: url(fonts/IRANYekanWebExtraBold.woff);
+}
+body {
+    overflow: hidden;
 }
 .title {
     display: flex;
@@ -37,6 +39,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 .first {
     background-color: #252525;
@@ -97,36 +100,40 @@
 .khaze {
     position: absolute;
     width: 100%;
-    top: 0;
+    top: 100px;
+    z-index: 2;
 }
 
 #kh1 {
     position: absolute;
     left: 30px;
     animation:  rot 5s infinite alternate ;
+    top: -100px;
 }
 #kh2 {
     position: absolute;
     left: 15px;
     animation:  rot 5s infinite alternate ;
     animation-delay: 2s;
+    top: -100px;
 }
 #kh3 {
     position: absolute;
     left: 30px;
     animation: rot 5s infinite alternate ;
     animation-delay: 1.5s;
+    top: -100px;
 }
 #kh4 {
     left: 15px;
     position: relative;
     animation:  rot 5s infinite alternate  ;
     animation-delay: 0.5s;
+    top: -100px;
 }
 #kh5 {
     position: absolute;
     right: 15px;
-    top: 100px;
     z-index: 10;
     animation: ro 5s infinite alternate;
     animation-delay: 1s;
@@ -134,7 +141,6 @@
 #kh6 {
     position: absolute;
     right: 0px;
-    top: 100px;
     z-index: 9;
     animation: ro 5s infinite alternate;
     animation-delay: 0.5s;
@@ -142,7 +148,6 @@
 #kh7 {
     position: absolute;
     right: 40px;
-    top: 100px;
     z-index: 11;
     animation: ro 5s infinite alternate;
     animation-delay: 1.5s;
@@ -150,7 +155,6 @@
 #kh8 {
     position: absolute;
     right: 30px;
-    top: 100px;
     z-index: 8;
     animation: ro 5s infinite alternate;
     animation-delay: 2s;
@@ -218,16 +222,16 @@
         margin: auto;
     }
     #kh5 {
-        top: 70px;
+        top: -30px;
     }
     #kh6 {
-        top: 70px;
+        top: -30px;
     }
     #kh7 {
-        top: 70px;
+        top: -30px;
     }
     #kh8 {
-        top: 70px;
+        top: -30px;
     }
 }
 @media screen and (min-width: 580px) and (max-width: 800px) {
@@ -287,16 +291,16 @@
         margin-right: 10px;
     }
     #kh5 {
-        top: 70px;
+        top: -30px;
     }
     #kh6 {
-        top: 70px;
+        top: -30px;
     }
     #kh7 {
-        top: 70px;
+        top: -30px;
     }
     #kh8 {
-        top: 70px;
+        top: -30px;
     }
 
 }
