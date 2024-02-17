@@ -234,7 +234,7 @@ body {
         top: -30px;
     }
 }
-@media screen and (min-width: 580px) and (max-width: 800px) {
+@media screen and (min-width: 580px) and (max-width: 820px) {
     .menu {
         display: flex;
     }
