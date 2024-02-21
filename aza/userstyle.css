@@ -3,10 +3,7 @@
     margin: 0;
     font-family: iranyekan;
 }
-@font-face {
-    font-family: iranyekan;
-    src: url(../fonts/IRANYekanWebExtraBold.woff);
-}
+
 body {
     overflow: hidden;
 }
