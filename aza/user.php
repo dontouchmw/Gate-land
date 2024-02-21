@@ -10,12 +10,12 @@
     <section class="first">
         <div class="header">
           <div class="headcontainer">
-            <a href="../index.html">
+            <a href="../index.php">
               <img src="img/Group 3.png" width="130px" alt="" id="logo">
             </a>
             
             <div class="menu">
-              <a href="../index.html"  class="safheye-asli">صفحه اصلی</a>
+              <a href="../index.php"  class="safheye-asli">صفحه اصلی</a>
               <div class="khadamat">اعضا</div>
               <div class="darbare">درباره ما</div>
               <div class="tamas">تماس با ما</div>
