@@ -33,14 +33,14 @@ body {
     margin-right: 20px;
 }
 .header {
-    background-color: #252525;
-    box-shadow: 0 3px 10px #1c1c1c;
+    background-color: #202020;
+    box-shadow: 0 3px 10px #111111;
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
+    
 }
 .first {
     background-color: #252525;

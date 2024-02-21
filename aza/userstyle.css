@@ -39,7 +39,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
+    
 }
 .first {
     background-color: #252525;
@@ -76,6 +76,8 @@ body {
     width: 150px;
     text-align: center;
     border-left: 2px solid #00FF1A;
+    text-decoration: none;
+    color: #ffffff;
 }
 .khadamat {
     width: 150px;
