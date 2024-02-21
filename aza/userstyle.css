@@ -1,9 +1,12 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: iranyekan;
+    font-family: iranyek;
 }
-
+@font-face {
+    font-family: iranyek;
+    src: url(../fonts/IRANYekanWebExtraBold.woff);
+}
 body {
     overflow: hidden;
 }
