@@ -6,7 +6,7 @@
 }
 @font-face {
     font-family: iranyekan;
-    src: url(./fonts/IRANYekanWebextraBold.woff);
+    src: url(fonts/IRANYekanWebextraBold.woff);
 }
 body {
     overflow: hidden;
