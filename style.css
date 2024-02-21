@@ -77,6 +77,8 @@ body {
     width: 150px;
     text-align: center;
     border-left: 2px solid #FF087E;
+    text-decoration: none;
+    color: #ffffff;
 }
 .khadamat {
     width: 150px;
