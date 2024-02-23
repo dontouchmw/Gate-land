@@ -143,10 +143,12 @@ body {
     margin-left: 30px;
 }
 .memberpart img {
+    margin-top: -10px;
     margin-left: 20px;
 }
 .memberpart2 img {
     margin-left: 20px;
+    margin-top: -10px;
 }
 
 
