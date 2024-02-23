@@ -44,7 +44,7 @@ body {
 }
 .first {
     background-color: #252525;
-    height: 100vh;
+    min-height: 100vh;
 }
 .headcontainer {
     width: 100%;
@@ -108,13 +108,46 @@ body {
 }
 .filters {
     width: 200px;
-    height: 80vh;
+    height: 90%;
     border-right: 3px solid #5c5c5c;
 }
 .firstbody {
     display: flex;
+    justify-content: center;
     align-items: center;
-    height: 86vh;
+    height: 85%;
+}
+.member {
+    width: 100%;
+    min-height: 85vh;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+}
+.memberpart {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.memberpart2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.memberdetail {
+    text-align: right;
+    direction: rtl;
+    color: #d5d5d5;
+    margin-left: 30px;
+}
+.memberpart img {
+    margin-left: 20px;
+}
+.memberpart2 img {
+    margin-left: 20px;
 }
 
 
@@ -181,6 +214,9 @@ body {
     }
 }
 @media screen and (min-width: 300px) and (max-width: 580px) {
+    body {
+        overflow: auto;
+    }
     .menu {
         display: none;
     }
@@ -230,7 +266,10 @@ body {
         top: -30px;
     }
 }
-@media screen and (min-width: 580px) and (max-width: 820px) {
+@media screen and (min-width: 580px) and (max-width: 900px) {
+    body {
+        overflow: auto;
+    }
     .menu {
         display: flex;
     }
@@ -285,6 +324,30 @@ body {
         font-size: 100px;
         margin-left: 10px;
         margin-right: 10px;
+    }
+    .memberpart {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+    }
+    .memberpart2 {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .memberpart img{
+        margin-top: 20px;
+    }
+    .memberpart2 img{
+        margin-top: 20px;
+    }
+    .memberdetail {
+        text-align: center;
+        direction: rtl;
+        color: #d5d5d5;
+        margin-top: 20px;
     }
     #kh5 {
         top: -30px;
