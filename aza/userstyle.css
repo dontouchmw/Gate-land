@@ -125,7 +125,6 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: 2px solid;
 }
 .memberpart {
     display: flex;
