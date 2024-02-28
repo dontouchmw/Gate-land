@@ -84,6 +84,8 @@ body {
     width: 150px;
     text-align: center;
     border-left: 2px solid #FF087E;
+    text-decoration: none;
+    color: #ffffff;
 }
 .darbare {
     width: 150px;
@@ -254,6 +256,36 @@ body {
         font-size: 80px;
         margin: auto;
     }
+    .memberpart {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+    }
+    .memberpart2 {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .memberpart img{
+        margin-top: 20px;
+    }
+    .memberpart2 img{
+        margin-top: 20px;
+    }
+    .memberdetail {
+        text-align: center;
+        direction: rtl;
+        color: #d5d5d5;
+        margin-top: 20px;
+    }
+    .filters {
+        display: none;
+    }
+    .member {
+        width: 100%;
+    }
     #kh5 {
         top: -30px;
     }
@@ -350,6 +382,7 @@ body {
         color: #d5d5d5;
         margin-top: 20px;
     }
+    
     #kh5 {
         top: -30px;
     }
